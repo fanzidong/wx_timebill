@@ -20,6 +20,10 @@
   margin-top: 200px;
 }
 
+.container {
+  padding-top: 10px;
+}
+
 .bill-list {
   width: 90%;
   align-items: center;
@@ -33,4 +37,13 @@
 
 .bill-title {
   background-color: deepskyblue;
+}
+
+#btn-container {
+  width: 90%;
+  padding: 20px;
+}
+
+.block-btn {
+  display: block;
 }

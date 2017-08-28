@@ -35,6 +35,20 @@ Page({
       }
     });
   },
+  bindAddBillTap: function(e) {
+    wx.navigateTo({
+      url: '/pages/addBill/addBill',
+      success: function(res){
+        // success
+      },
+      fail: function() {
+        // fail
+      },
+      complete: function() {
+        // complete
+      }
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
