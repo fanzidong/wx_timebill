@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {  
+   "color": "#a9b7b7",  
+   "selectedColor": "#11cd6e",  
+   "borderStyle":"white",  
+   "list": [{  
+     "pagePath": "pages/index/index",  
+     "text": "记账"  
+   }, {  
+     "pagePath": "pages/logs/logs",  
+     "text": "报表"  
+   }, {  
+     "pagePath": "pages/setting/setting",  
+     "text": "设置"  
+   }]  
+ }
+}

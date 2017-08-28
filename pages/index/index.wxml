@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+  <view class="bill-list">
+    <view wx:for="{{billList}}" wx:for-index="idx" wx:for-item="bill" id="bill-1" bindtap="bindBillViewTap" bindlongtap="bindBillLongTap" class="bill-container">
+      <view class="bill-title">2小时30分(08:50-11:20)</view>
+      <view class="bill-container">编写PNM需求</view>
+    </view>
+  </view>
+</view>
